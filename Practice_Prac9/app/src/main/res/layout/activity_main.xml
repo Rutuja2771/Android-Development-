@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Data share using 2 activities" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write your name"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="what do you want to eat?"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textDrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select the drinks" />
+
+    <CheckBox
+        android:id="@+id/drinkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="GATORADE" />
+
+    <CheckBox
+        android:id="@+id/drinkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="SPRITE" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="send the data" />
+
+</LinearLayout>
